@@ -1,0 +1,78 @@
+.logo {
+    display: block;
+    margin: auto;
+}
+
+body {
+    height: 100vh;
+    background-image: linear-gradient(#c8c1f1, rgb(238, 218, 238));
+}
+
+.chats {
+    max-width: 955px;
+    border: 2px solid black;
+    padding: 33px;
+    overflow-y: auto;
+    margin-bottom: 23px;
+    background-color: rgb(216, 155, 155);
+    margin: auto;
+    height: 60vh;
+}
+
+.message {
+    background-color: lightblue;
+    width: 24%;
+    padding: 10px;
+    margin: 17px 12px;
+    border: 2px solid black;
+    border-radius: 10px;
+
+}
+
+.left {
+   
+    justify-content: flex-start;
+}
+
+.right {
+    
+    justify-content: flex-end;
+}
+
+#send_container {
+    display: block;
+    text-align: center;
+    max-width: 985px;
+    margin: auto;
+    width: 100%;
+    padding: 8px;
+}
+
+#messageInp {
+    width: 70%;
+    right: auto;
+    border: 2px solid black;
+    border-radius: 6px;
+    height: 25px;
+}
+
+.btn {
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 6px;
+    height: 30px;
+}
+.send{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.user-join{
+    text-align: center;
+}
+
+.my-dic{
+    display: flex;
+    flex-wrap: wrap;
+}
